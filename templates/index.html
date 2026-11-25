@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="content-center">
+            <ul class="nav-links bg-red-50">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Hello you</h1>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="sayHello()">
+                Button
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">shout out</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
